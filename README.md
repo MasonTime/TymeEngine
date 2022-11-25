@@ -1,1 +1,1 @@
-Game engine built on top of p5.js
+Game engine built for the HTML5 canvas

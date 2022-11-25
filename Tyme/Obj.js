@@ -22,9 +22,9 @@ class Obj {
 		}
 	}
 
-	DrawChildren(p5) {
+	DrawChildren() {
 		for (let i in this.Children) {
-			this.Children[i].Draw(p5);
+			this.Children[i].Draw();
 		}
 	}
 
@@ -44,11 +44,11 @@ class Obj {
 		}
 	}
 	
-	Draw(p5) {
-		this.DrawChildren(p5);
+	Draw() {
+		this.DrawChildren();
 		
 		if (this.Scenes[this.activeScene] != undefined) {
-			this.Scenes[this.activeScene].Draw(p5);
+			this.Scenes[this.activeScene].Draw();
 		}
 	}
 

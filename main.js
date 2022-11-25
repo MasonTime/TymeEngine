@@ -1,6 +1,6 @@
-import {Tyme} from "/Tyme/Tyme.js"
 import {RectObj} from "/Tyme/RectObj.js"
 import {Obj} from "/Tyme/Obj.js"
+import {Tyme} from "/Tyme/Tyme.js"
 
 Tyme.AddScene(new Obj("Main"));
 
